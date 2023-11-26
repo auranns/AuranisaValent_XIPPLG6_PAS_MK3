@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">QuizDev.</a>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quiz Dev</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website</span>
+                        <span class="header-score">Score: 0 / 10</span>
+                    </div>
+
+                    <h2 class="question-text">Apa kepanjangan dari html?</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Hyper Text Multiple Language</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Hyper Text Markup Language </span>
+                        </div>
+                        <div class="option">
+                            <span>D. Home Text Multi Language</span>
+                        </div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                            <span class="question-total">1 of 10 Questions</span>
+                            <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                     <h2>Quiz Result!</h2>
+                     <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Your Score 0 out of 10</span>
+                     </div>
+
+                     <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                     </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>QuizDev</h1>
+                    <p>Selamat datang di QuizDev !!, platform interaktif yang dirancang khusus untuk menguji pengetahuan Anda melalui serangkaian kuis menarik! Dengan desain yang bersih dan responsif, website ini memberikan pengalaman belajar yang menyenangkan dan interaktif.</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Aturan Quiz</h2>
+        <span class="info">1. Pastikan anda sudah mempelajari tentang HTML, CSS dan JavaScript.</span>
+        <span class="info">2. Pastikan untuk membaca pertanyaan dengan cermat sebelum memilih jawaban.</span>
+        <span class="info">3. Setiap pertanyaan memiliki empat opsi jawaban.</span>
+        <span class="info">4. Skor Anda akan dihitung berdasarkan jumlah jawaban yang benar.</span>
+        <span class="info">5. Anda dapat melihat skor langsung setelah menyelesaikan kuis.</span>
+        
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+
+    <script src="question.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
